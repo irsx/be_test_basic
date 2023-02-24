@@ -49,6 +49,18 @@ Rules:
 ### Answer 2
 ...
 
+
+### Question 3
+
+Buatlah sebuah fungsi yang dapat menghitung angka yang berurutan terpanjang dalam sebuah array yang tidak berurut
+Buat algoritma yang dapat berjalan dengan kompleksitas waktu O(n).
+
+Kamu dapat melihat detailnya pada `question-3.js`
+
+### Answer 3
+...
+
+
 ### Question 3
 +-------------+---------+
 | Column Name | Type    |
