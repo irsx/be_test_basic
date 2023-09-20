@@ -61,7 +61,7 @@ Kamu dapat melihat detailnya pada `question-3.js`
 ...
 
 
-### Question 3
+### Question 4
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -109,10 +109,10 @@ VALUES (ROUND(RAND() * 9 + 1, 2)),
        (ROUND(9, 2)),
        (ROUND(9, 2));
 ```
-### Answer 3
+### Answer 4
 ...
 
-### Question 4
+### Question 5
 
 +-------------+---------+
 | Column Name | Type    |
@@ -159,4 +159,22 @@ CREATE TABLE products (
 ```
 INSERT INTO products (toko_jaya, toko_rima, sinar_jaya)
 VALUES (90, 91, 89), (198, 188, null), (76, null, 74);
+```
+
+### Answer 5
+...
+
+### Question 6
+Anda diberikan sebuah string yang berisi ekspresi matematika sebagai berikut: '(2x5)+10/5x(9-10)' [Result = 8]. Tugas Anda adalah mengevaluasi ekspresi tersebut.
+
+Catatan: Anda tidak boleh menggunakan fungsi eval() atau fungsi sejenis yang ada dalam bahasa pemrograman apapun. Anda harus menyelesaikan tugas ini dengan menggunakan pemrograman yang kreatif.
+
+```javascript
+function evaluateExpression(expression) {
+  // Langkah-langkah penyelesaian tugas di sini
+}
+
+const expression = '(2x5)+10/5x(9-10)';
+const result = evaluateExpression(expression);
+console.log(result); // 8
 ```
